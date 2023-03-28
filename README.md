@@ -1,5 +1,7 @@
 # PSVMA
-![](https://img.shields.io/badge/CVPR'23-brightgreen)   [![Pytorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?e&logo=PyTorch&logoColor=white)](https://pytorch.org/)
+![](https://img.shields.io/badge/CVPR'23-brightgreen)   [![Pytorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?e&logo=PyTorch&logoColor=white)](https://pytorch.org/) [![arxiv badge](https://img.shields.io/badge/arxiv-2303.15322-red)](https://arxiv.org/abs/2303.15322)
+
+ - [*Progressive Semantic-Visual Mutual Adaption for Generalized Zero-Shot Learning*](https://arxiv.org/abs/2303.15322)
 This repository contains the reference code for the paper "**Progressive Semantic-Visual Mutual Adaption for Generalized Zero-Shot Learning**" accepted to CVPR 2023.
 
 ## 🌈 Model Architecture
