@@ -6,8 +6,6 @@
     
     
 
-  **Code will be uploaded before CVPR 2023 (mid-June). Please stay tuned!**
-
 
 
 ## 🌈 Model Architecture
@@ -33,21 +31,29 @@ config/cub.yaml       #CUB
 config/sun.yaml      #SUN
 config/awa2.yaml    #AWA2
 ```
-The training:
+T rain:
 ```shell
  python train.py
 ```
-You can test our trained model: [CUB](https://pytorch.org/), [AwA2](https://pytorch.org/), [SUN](https://pytorch.org/).
+Eval:
+
+```shell
+ python test.py
+```
+
+You can test our trained model: [CUB](https://drive.google.com/file/d/1bRbb6DzwWccwxhCkREuAadYL73jgVgfe/view?usp=share_link), [AwA2](https://drive.google.com/file/d/1ekXylwVbIY9QAbXmQe-Gwk1vk52qfEby/view?usp=share_link), [SUN](https://drive.google.com/file/d/1BEL_Sth2ZdmNaPBrF01Yub70xnIL6YlR/view?usp=share_link).
 
 ## ❗ Cite:
 If this work is helpful for you, please cite our paper.
 
 ```
 @InProceedings{Liu_2023_CVPR,
-    author    = {Man Liu and Feng Li and Chunjie Zhang and Yunchao Wei and Huihui Bai and Yao Zhao},
+    author    = {Liu, Man and Li, Feng and Zhang, Chunjie and Wei, Yunchao and Bai, Huihui and Zhao, Yao},
     title     = {Progressive Semantic-Visual Mutual Adaption for Generalized Zero-Shot Learning},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (CVPR)},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
     year      = {2023},
+    pages     = {15337-15346}
 }
 ```
 
